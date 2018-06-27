@@ -6,7 +6,7 @@ export class CounterService {
 
 
     activeToInactive(){
-        this.activeToInactiveCounter++;
+        this.activeToInactiveCounter++; 
     };
 
     inactiveToActive(){

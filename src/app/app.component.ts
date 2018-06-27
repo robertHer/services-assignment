@@ -6,9 +6,12 @@ import { CounterService } from './counter.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [UserService, CounterService]
+  providers: [UserService]
 })
 export class AppComponent {
+   activeUsers = [];
+   inactiveUsers = [];
+
   constructor(){
     
   }
